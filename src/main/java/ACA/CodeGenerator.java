@@ -13,8 +13,8 @@ import java.util.Scanner;
 // 演示例子，执行 main 方法控制台输入模块表名回车自动生成对应项目目录中
 public class CodeGenerator {
 
-    private static final String USERNAME = "sftester";
-    private static final String PASSWORD = "sftester";
+    private static final String USERNAME = "x";
+    private static final String PASSWORD = "x";
     private static final String PROJECT_PARENT_PATH = "ACA";
     private static final String AUTHOR = "tiebiao Z";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
