@@ -10,9 +10,6 @@ public class aca {
     int sum = 9;
     int count = 1;
 
-
-
-
     public Location step(int x,int y)
     {
         if(maps[x][y] == 1)
@@ -24,5 +21,13 @@ public class aca {
         }
         step(x,y);
         return new Location(x,y);
+    }
+
+    public void go()
+    {
+        for(int i = 0;i<maps.length;i++)
+        {
+            step(i,0);
+        }
     }
 }
